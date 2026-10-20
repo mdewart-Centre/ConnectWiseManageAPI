@@ -6,13 +6,17 @@
     )
 
     Write-Verbose $($Arguments.Value | Out-String)
-    $Body = @(
-        @{
-            op    = $Arguments.Operation.toLower()
-            path  = $Arguments.Path
-            value = $Arguments.Value
-        }
-    )
+    if ($Arguments.Keys -contains 'PatchOperations') {
+        $Body = $Arguments.PatchOperations
+    } else {
+        $Body = @(
+            @{
+                op    = $Arguments.Operation.toLower()
+                path  = $Arguments.Path
+                value = $Arguments.Value
+            }
+        )
+    }
     $Body = ConvertTo-Json $Body -Depth 100
     Write-Verbose $Body
 

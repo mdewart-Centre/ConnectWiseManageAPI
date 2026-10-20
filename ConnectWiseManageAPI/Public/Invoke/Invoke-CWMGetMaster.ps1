@@ -5,7 +5,7 @@
         [string]$Endpoint
     )
 
-    if ($Arguments.id) { $Endpoint = Join-Url $Endpoint $id }
+    if ($Arguments.id) { $Endpoint = Join-Url $Endpoint $Arguments.id }
 
     if ($Arguments.count.IsPresent) { $Endpoint = Join-Url $Endpoint '/count' }
 
@@ -32,6 +32,10 @@
     if ($Arguments.orderBy) {
         $orderBy = [System.Web.HttpUtility]::UrlEncode($Arguments.orderBy)
         $URLParameters += "&orderBy=$orderBy"
+    }
+
+    if ($null -ne $Arguments.pageId) {
+        $URLParameters += "&pageId=$($Arguments.pageId)"
     }
 
     $URI = New-CWMUrl -Endpoint $Endpoint -URLParameters $URLParameters

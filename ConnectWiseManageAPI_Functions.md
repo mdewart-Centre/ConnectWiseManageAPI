@@ -20,6 +20,9 @@ Converts date time returned by manage to a \[datetime\] object.
 ### [ConvertTo-CWMTime](Docs/ConvertTo-CWMTime.md)
 Converts \[datetime\] to the time format used in condition queries.
 
+### [Copy-CWMCompanyServiceTemplate](Docs/Copy-CWMCompanyServiceTemplate.md)
+Copies a company service template.
+
 ### [Disconnect-CWM](Docs/Disconnect-CWM.md)
 This will remove the ConnectWise Manage authorization variable.
 
@@ -94,6 +97,9 @@ This function will list company notes based on conditions.
 
 ### [Get-CWMCompanyNoteType](Docs/Get-CWMCompanyNoteType.md)
 This function will list company note types based on conditions.
+
+### [Get-CWMCompanyServiceTemplate](Docs/Get-CWMCompanyServiceTemplate.md)
+Gets company service templates.
 
 ### [Get-CWMCompanySite](Docs/Get-CWMCompanySite.md)
 Get a companies sites.
@@ -275,8 +281,14 @@ This function will list warehouses.
 ### [Get-CWMWarehouseBin](Docs/Get-CWMWarehouseBin.md)
 This function will list warehouse bins.
 
+### [Invoke-CWMActionMaster](Docs/Invoke-CWMActionMaster.md)
+Invokes a bodyless POST action.
+
 ### [Invoke-CWMAllResult](Docs/Invoke-CWMAllResult.md)
 {{ Fill in the Synopsis }}
+
+### [Invoke-CWMCompanyServiceTemplateGenerate](Docs/Invoke-CWMCompanyServiceTemplateGenerate.md)
+Generates services from a company service template.
 
 ### [Invoke-CWMGetMaster](Docs/Invoke-CWMGetMaster.md)
 {{ Fill in the Synopsis }}
@@ -289,6 +301,9 @@ This function will list warehouse bins.
 
 ### [Invoke-CWMSearchMaster](Docs/Invoke-CWMSearchMaster.md)
 {{ Fill in the Synopsis }}
+
+### [Invoke-CWMSetMaster](Docs/Invoke-CWMSetMaster.md)
+Replaces a resource using HTTP PUT.
 
 ### [Invoke-CWMUpdateMaster](Docs/Invoke-CWMUpdateMaster.md)
 {{ Fill in the Synopsis }}
@@ -328,6 +343,9 @@ This function will create a note on the given contact.
 
 ### [New-CWMTicketNote](Docs/New-CWMTicketNote.md)
 Add a note to a CW Manage company.
+
+### [New-CWMCompanyServiceTemplate](Docs/New-CWMCompanyServiceTemplate.md)
+Creates a company service template.
 
 ### [New-CWMCompanySite](Docs/New-CWMCompanySite.md)
 {{ Fill in the Synopsis }}
@@ -440,6 +458,12 @@ Removes a note from a contact.
 ### [Remove-CWMCompanyNote](Docs/Remove-CWMCompanyNote.md)
 {{ Fill in the Synopsis }}
 
+### [Remove-CWMCompanyServiceTemplate](Docs/Remove-CWMCompanyServiceTemplate.md)
+Deletes a company service template.
+
+### [Remove-CWMCompanyServiceTemplateLink](Docs/Remove-CWMCompanyServiceTemplateLink.md)
+Unlinks a company service template.
+
 ### [Remove-CWMCompanySite](Docs/Remove-CWMCompanySite.md)
 {{ Fill in the Synopsis }}
 
@@ -494,6 +518,9 @@ Removes a time entry
 ### [Remove-CWMTimeSheet](Docs/Remove-CWMTimeSheet.md)
 {{ Fill in the Synopsis }}
 
+### [Set-CWMCompanyServiceTemplate](Docs/Set-CWMCompanyServiceTemplate.md)
+Replaces a company service template.
+
 ### [Submit-CWMTimeSheet](Docs/Submit-CWMTimeSheet.md)
 This function will submit a time sheet for approval.
 
@@ -523,6 +550,9 @@ This will modify a contact by its ID.
 
 ### [Update-CWMCompanyCustomNote](Docs/Update-CWMCompanyCustomNote.md)
 {{ Fill in the Synopsis }}
+
+### [Update-CWMCompanyServiceTemplate](Docs/Update-CWMCompanyServiceTemplate.md)
+Applies patch operations to a company service template.
 
 ### [Update-CWMCompanySite](Docs/Update-CWMCompanySite.md)
 {{ Fill in the Synopsis }}
@@ -584,3 +614,5 @@ This will update a time entry.
 ### [Update-CWMTimeSheet](Docs/Update-CWMTimeSheet.md)
 This will update a timesheet.
 
+### [Add-CWMCompanyServiceTemplateLink](Docs/Add-CWMCompanyServiceTemplateLink.md)
+Links a company service template.
