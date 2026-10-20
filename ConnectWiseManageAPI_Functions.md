@@ -39,10 +39,10 @@ This function will list Agreement Sites based on conditions.
 This function will get the audit trail of an item in ConnectWise.
 
 ### [Get-CWMBoardItem](Docs/Get-CWMBoardItem.md)
-{{ Fill in the Synopsis }}
+Lists items on a service board.
 
 ### [Get-CWMBoardItemAssociation](Docs/Get-CWMBoardItemAssociation.md)
-{{ Fill in the Synopsis }}
+Lists associations for a service board item.
 
 ### [Get-CWMBoardStatus](Docs/Get-CWMBoardStatus.md)
 This function will list the statuses of a service board based on conditions.
@@ -87,10 +87,10 @@ This function will list contacts.
 This function will list a contacts notes.
 
 ### [Get-CWMCompanyCountry](Docs/Get-CWMCompanyCountry.md)
-{{ Fill in the Synopsis }}
+Lists countries available in ConnectWise Manage.
 
 ### [Get-CWMCompanyCustomNote](Docs/Get-CWMCompanyCustomNote.md)
-{{ Fill in the Synopsis }}
+Lists custom status notes for a company.
 
 ### [Get-CWMCompanyNote](Docs/Get-CWMCompanyNote.md)
 This function will list company notes based on conditions.
@@ -105,7 +105,7 @@ Gets company service templates.
 Get a companies sites.
 
 ### [Get-CWMCompanyState](Docs/Get-CWMCompanyState.md)
-{{ Fill in the Synopsis }}
+Lists states available in ConnectWise Manage.
 
 ### [Get-CWMCompanyStatus](Docs/Get-CWMCompanyStatus.md)
 This function will list all CW company statuses.
@@ -135,7 +135,7 @@ Return locations for a given department.
 This function will list documents associated with a record.
 
 ### [Get-CWMExpenseEntry](Docs/Get-CWMExpenseEntry.md)
-{{ Fill in the Synopsis }}
+Lists expense entries.
 
 ### [Get-CWMInventory](Docs/Get-CWMInventory.md)
 This function will list Inventory and Stock on Hand, including serial numbers from a specific Warehouse Bin
@@ -162,25 +162,25 @@ This function will return information about the user used for the API connection
 This function will return information about the users permissions.
 
 ### [Get-CWMOpportunity](Docs/Get-CWMOpportunity.md)
-{{ Fill in the Synopsis }}
+Lists sales opportunities.
 
 ### [Get-CWMOpportunityForecast](Docs/Get-CWMOpportunityForecast.md)
-{{ Fill in the Synopsis }}
+Gets the forecast for an opportunity.
 
 ### [Get-CWMOpportunityForecastItem](Docs/Get-CWMOpportunityForecastItem.md)
-{{ Fill in the Synopsis }}
+Lists forecast items for an opportunity.
 
 ### [Get-CWMPriority](Docs/Get-CWMPriority.md)
 This function will list service priorities on conditions.
 
 ### [Get-CWMProduct](Docs/Get-CWMProduct.md)
-{{ Fill in the Synopsis }}
+Lists procurement products.
 
 ### [Get-CWMProductAdjustment](Docs/Get-CWMProductAdjustment.md)
-{{ Fill in the Synopsis }}
+Lists product adjustments.
 
 ### [Get-CWMProductAdjustmentDetail](Docs/Get-CWMProductAdjustmentDetail.md)
-{{ Fill in the Synopsis }}
+Lists details for a product adjustment.
 
 ### [Get-CWMProductCatalog](Docs/Get-CWMProductCatalog.md)
 This function will list the product catalogs.
@@ -210,7 +210,7 @@ This function will list team members of a project.
 This will return a list of project tickets.
 
 ### [Get-CWMProjectTicketConfiguration](Docs/Get-CWMProjectTicketConfiguration.md)
-{{ Fill in the Synopsis }}
+Lists configurations attached to a project ticket.
 
 ### [Get-CWMPurchaseOrder](Docs/Get-CWMPurchaseOrder.md)
 This function will list purchase orders.
@@ -231,10 +231,10 @@ This function will list sales activities based on conditions.
 This function will list members schedules.
 
 ### [Get-CWMScheduleHoliday](Docs/Get-CWMScheduleHoliday.md)
-{{ Fill in the Synopsis }}
+Lists holidays in a holiday list.
 
 ### [Get-CWMScheduleHolidayList](Docs/Get-CWMScheduleHolidayList.md)
-{{ Fill in the Synopsis }}
+Lists schedule holiday lists.
 
 ### [Get-CWMServiceBoard](Docs/Get-CWMServiceBoard.md)
 This function will list of service boards based on conditions.
@@ -249,7 +249,7 @@ This function will list service SLAs on conditions.
 This function will list service sources on conditions.
 
 ### [Get-CWMSSOConfiguration](Docs/Get-CWMSSOConfiguration.md)
-{{ Fill in the Synopsis }}
+Lists single sign-on configurations.
 
 ### [Get-CWMSystemInfo](Docs/Get-CWMSystemInfo.md)
 This function will return information about the ConnectWise server.
@@ -258,7 +258,7 @@ This function will return information about the ConnectWise server.
 This function list tickets that match your condition.
 
 ### [Get-CWMTicketAllNote](Docs/Get-CWMTicketAllNote.md)
-{{ Fill in the Synopsis }}
+Gets all notes for a service ticket.
 
 ### [Get-CWMTicketConfiguration](Docs/Get-CWMTicketConfiguration.md)
 This function will list configs attached to a ticket.
@@ -285,31 +285,31 @@ This function will list warehouse bins.
 Invokes a bodyless POST action.
 
 ### [Invoke-CWMAllResult](Docs/Invoke-CWMAllResult.md)
-{{ Fill in the Synopsis }}
+Retrieves all pages of results using forward-only pagination.
 
 ### [Invoke-CWMCompanyServiceTemplateGenerate](Docs/Invoke-CWMCompanyServiceTemplateGenerate.md)
 Generates services from a company service template.
 
 ### [Invoke-CWMGetMaster](Docs/Invoke-CWMGetMaster.md)
-{{ Fill in the Synopsis }}
+Sends GET requests to ConnectWise Manage API endpoints.
 
 ### [Invoke-CWMNewMaster](Docs/Invoke-CWMNewMaster.md)
-{{ Fill in the Synopsis }}
+Sends POST requests to create resources or invoke actions.
 
 ### [Invoke-CWMRemoveMaster](Docs/Invoke-CWMRemoveMaster.md)
-{{ Fill in the Synopsis }}
+Sends DELETE requests to remove resources.
 
 ### [Invoke-CWMSearchMaster](Docs/Invoke-CWMSearchMaster.md)
-{{ Fill in the Synopsis }}
+Sends search requests to ConnectWise Manage API endpoints.
 
 ### [Invoke-CWMSetMaster](Docs/Invoke-CWMSetMaster.md)
 Replaces a resource using HTTP PUT.
 
 ### [Invoke-CWMUpdateMaster](Docs/Invoke-CWMUpdateMaster.md)
-{{ Fill in the Synopsis }}
+Sends PATCH requests to update resources.
 
 ### [Invoke-CWMWebRequest](Docs/Invoke-CWMWebRequest.md)
-{{ Fill in the Synopsis }}
+Sends authenticated HTTP requests to the ConnectWise Manage API.
 
 ### [New-CWMAgreement](Docs/New-CWMAgreement.md)
 This function will allow you to search for Manage configurations.
@@ -318,7 +318,7 @@ This function will allow you to search for Manage configurations.
 This function will create a new agreement addition.
 
 ### [New-CWMBoardItem](Docs/New-CWMBoardItem.md)
-{{ Fill in the Synopsis }}
+Creates an item on a service board.
 
 ### [New-CWMCallbackEntry](Docs/New-CWMCallbackEntry.md)
 This function will create a new callback entry.
@@ -339,7 +339,7 @@ This function will create a new contact.
 This function will create a note on the given contact.
 
 ### [New-CWMCompanyCustomNote](Docs/New-CWMCompanyCustomNote.md)
-{{ Fill in the Synopsis }}
+Creates a custom status note for a company.
 
 ### [New-CWMTicketNote](Docs/New-CWMTicketNote.md)
 Add a note to a CW Manage company.
@@ -348,7 +348,7 @@ Add a note to a CW Manage company.
 Creates a company service template.
 
 ### [New-CWMCompanySite](Docs/New-CWMCompanySite.md)
-{{ Fill in the Synopsis }}
+Creates a site for a company.
 
 ### [New-CWMCompanyTeam](Docs/New-CWMCompanyTeam.md)
 This function will create a new company team.
@@ -366,7 +366,7 @@ This function is used to gather troubleshooting information.
 Will allow you to upload a document and attach it to an item.
 
 ### [New-CWMExpenseEntry](Docs/New-CWMExpenseEntry.md)
-{{ Fill in the Synopsis }}
+Creates an expense entry.
 
 ### [New-CWMMarketingGroupCompany](Docs/New-CWMMarketingGroupCompany.md)
 Adds a company to a marketing group.
@@ -375,25 +375,25 @@ Adds a company to a marketing group.
 This will create a new Manage user.
 
 ### [New-CWMMemberToken](Docs/New-CWMMemberToken.md)
-{{ Fill in the Synopsis }}
+Creates an API token for a member.
 
 ### [New-CWMOpportunity](Docs/New-CWMOpportunity.md)
-{{ Fill in the Synopsis }}
+Creates a sales opportunity.
 
 ### [New-CWMOpportunityForecast](Docs/New-CWMOpportunityForecast.md)
-{{ Fill in the Synopsis }}
+Creates a forecast for an opportunity.
 
 ### [New-CWMOpportunityForecastItem](Docs/New-CWMOpportunityForecastItem.md)
-{{ Fill in the Synopsis }}
+Adds an item to an opportunity forecast.
 
 ### [New-CWMProduct](Docs/New-CWMProduct.md)
-{{ Fill in the Synopsis }}
+Creates a procurement product.
 
 ### [New-CWMProductAdjustment](Docs/New-CWMProductAdjustment.md)
-{{ Fill in the Synopsis }}
+Creates a product adjustment.
 
 ### [New-CWMProductAdjustmentDetail](Docs/New-CWMProductAdjustmentDetail.md)
-{{ Fill in the Synopsis }}
+Adds a detail to a product adjustment.
 
 ### [New-CWMProductCatalog](Docs/New-CWMProductCatalog.md)
 This function will create a new catalog.
@@ -405,7 +405,7 @@ This function will create a new project phase
 This function will create a new ticket.
 
 ### [New-CWMProjectTicketConfiguration](Docs/New-CWMProjectTicketConfiguration.md)
-{{ Fill in the Synopsis }}
+Attaches a configuration to a project ticket.
 
 ### [New-CWMScheduleEntry](Docs/New-CWMScheduleEntry.md)
 This function will create a new schedule entry.
@@ -432,7 +432,7 @@ Add a note to a CW Manage ticket.
 This function will create a new time entry.
 
 ### [Remove-CWMAgreementAddition](Docs/Remove-CWMAgreementAddition.md)
-{{ Fill in the Synopsis }}
+Removes an addition from an agreement.
 
 ### [Remove-CWMAgreementSite](Docs/Remove-CWMAgreementSite.md)
 This function will remove a site from a Manage agreement.
@@ -453,10 +453,10 @@ Removes a contact.
 Removes a note from a contact.
 
 ### [Remove-CWMCompanyCustomNote](Docs/Remove-CWMCompanyCustomNote.md)
-{{ Fill in the Synopsis }}
+Removes a custom status note from a company.
 
 ### [Remove-CWMCompanyNote](Docs/Remove-CWMCompanyNote.md)
-{{ Fill in the Synopsis }}
+Removes a note from a company.
 
 ### [Remove-CWMCompanyServiceTemplate](Docs/Remove-CWMCompanyServiceTemplate.md)
 Deletes a company service template.
@@ -465,19 +465,19 @@ Deletes a company service template.
 Unlinks a company service template.
 
 ### [Remove-CWMCompanySite](Docs/Remove-CWMCompanySite.md)
-{{ Fill in the Synopsis }}
+Removes a site from a company.
 
 ### [Remove-CWMCompanyStatus](Docs/Remove-CWMCompanyStatus.md)
 Remove a company status
 
 ### [Remove-CWMCompanyTeam](Docs/Remove-CWMCompanyTeam.md)
-{{ Fill in the Synopsis }}
+Removes a team from a company.
 
 ### [Remove-CWMCompanyTypeAssociation](Docs/Remove-CWMCompanyTypeAssociation.md)
 This function will remove a type from a company.
 
 ### [Remove-CWMContactCommunication](Docs/Remove-CWMContactCommunication.md)
-{{ Fill in the Synopsis }}
+Removes a communication method from a contact.
 
 ### [Remove-CWMDocument](Docs/Remove-CWMDocument.md)
 Remove a Manage document.
@@ -486,19 +486,19 @@ Remove a Manage document.
 This function will remove a company from a marketing group.
 
 ### [Remove-CWMOpportunity](Docs/Remove-CWMOpportunity.md)
-{{ Fill in the Synopsis }}
+Removes a sales opportunity.
 
 ### [Remove-CWMOpportunityForecast](Docs/Remove-CWMOpportunityForecast.md)
-{{ Fill in the Synopsis }}
+Removes an opportunity forecast.
 
 ### [Remove-CWMOpportunityForecastItem](Docs/Remove-CWMOpportunityForecastItem.md)
-{{ Fill in the Synopsis }}
+Removes an item from an opportunity forecast.
 
 ### [Remove-CWMProduct](Docs/Remove-CWMProduct.md)
-{{ Fill in the Synopsis }}
+Removes a procurement product.
 
 ### [Remove-CWMProjectTicketConfiguration](Docs/Remove-CWMProjectTicketConfiguration.md)
-{{ Fill in the Synopsis }}
+Removes a configuration from a project ticket.
 
 ### [Remove-CWMScheduleEntry](Docs/Remove-CWMScheduleEntry.md)
 This function will remove a schedule entry from Manage.
@@ -510,13 +510,13 @@ This function will remove the supplied ticket.
 Remove a configuration from a ticket
 
 ### [Remove-CWMTicketNote](Docs/Remove-CWMTicketNote.md)
-{{ Fill in the Synopsis }}
+Removes a note from a service ticket.
 
 ### [Remove-CWMTimeEntry](Docs/Remove-CWMTimeEntry.md)
 Removes a time entry
 
 ### [Remove-CWMTimeSheet](Docs/Remove-CWMTimeSheet.md)
-{{ Fill in the Synopsis }}
+Removes a time sheet.
 
 ### [Set-CWMCompanyServiceTemplate](Docs/Set-CWMCompanyServiceTemplate.md)
 Replaces a company service template.
@@ -531,7 +531,7 @@ This will update an agreement.
 This will update an addition to an agreement.
 
 ### [Update-CWMBoardItemAssociation](Docs/Update-CWMBoardItemAssociation.md)
-{{ Fill in the Synopsis }}
+Updates an association for a service board item.
 
 ### [Update-CWMCallbackEntry](Docs/Update-CWMCallbackEntry.md)
 This will update a Callback entry.
@@ -549,16 +549,16 @@ This will update a company configuration question value.
 This will modify a contact by its ID.
 
 ### [Update-CWMCompanyCustomNote](Docs/Update-CWMCompanyCustomNote.md)
-{{ Fill in the Synopsis }}
+Updates a company's custom status note.
 
 ### [Update-CWMCompanyServiceTemplate](Docs/Update-CWMCompanyServiceTemplate.md)
 Applies patch operations to a company service template.
 
 ### [Update-CWMCompanySite](Docs/Update-CWMCompanySite.md)
-{{ Fill in the Synopsis }}
+Updates a company's site.
 
 ### [Update-CWMCompanyTeam](Docs/Update-CWMCompanyTeam.md)
-{{ Fill in the Synopsis }}
+Updates a company's team association.
 
 ### [Update-CWMCompanyTypeAssociation](Docs/Update-CWMCompanyTypeAssociation.md)
 This will update a company type association.
@@ -570,16 +570,16 @@ Update a contacts communication data.
 Update the properties of a ConnectWise Manage member.
 
 ### [Update-CWMOpportunity](Docs/Update-CWMOpportunity.md)
-{{ Fill in the Synopsis }}
+Updates a sales opportunity.
 
 ### [Update-CWMOpportunityForecast](Docs/Update-CWMOpportunityForecast.md)
-{{ Fill in the Synopsis }}
+Updates an opportunity forecast.
 
 ### [Update-CWMOpportunityForecastItem](Docs/Update-CWMOpportunityForecastItem.md)
-{{ Fill in the Synopsis }}
+Updates an item in an opportunity forecast.
 
 ### [Update-CWMProductAdjustment](Docs/Update-CWMProductAdjustment.md)
-{{ Fill in the Synopsis }}
+Updates a product adjustment.
 
 ### [Update-CWMProductCatalog](Docs/Update-CWMProductCatalog.md)
 This will update a catalog item.
@@ -594,19 +594,19 @@ This will update an project phase.
 This will update a Manage project ticket.
 
 ### [Update-CWMPurchaseOrder](Docs/Update-CWMPurchaseOrder.md)
-{{ Fill in the Synopsis }}
+Updates a purchase order.
 
 ### [Update-CWMScheduleEntry](Docs/Update-CWMScheduleEntry.md)
 Will update a schedule entry.
 
 ### [Update-CWMSSOConfiguration](Docs/Update-CWMSSOConfiguration.md)
-{{ Fill in the Synopsis }}
+Updates a single sign-on configuration.
 
 ### [Update-CWMTicket](Docs/Update-CWMTicket.md)
 This will update a ticket.
 
 ### [Update-CWMTicketTask](Docs/Update-CWMTicketTask.md)
-{{ Fill in the Synopsis }}
+Updates a task on a service ticket.
 
 ### [Update-CWMTimeEntry](Docs/Update-CWMTimeEntry.md)
 This will update a time entry.
