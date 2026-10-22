@@ -242,6 +242,9 @@ This function will list of service boards based on conditions.
 ### [Get-CWMServiceBoardInfo](Docs/Get-CWMServiceBoardInfo.md)
 This will return information about service boards.
 
+### [Get-CWMServiceTemplateResource](Docs/Get-CWMServiceTemplateResource.md)
+Gets resource assignments for a service template.
+
 ### [Get-CWMSLA](Docs/Get-CWMSLA.md)
 This function will list service SLAs on conditions.
 
@@ -413,6 +416,9 @@ This function will create a new schedule entry.
 ### [New-CWMServiceBoard](Docs/New-CWMServiceBoard.md)
 This function will create a new service board.
 
+### [New-CWMServiceTemplateResource](Docs/New-CWMServiceTemplateResource.md)
+Assigns a member to a service template.
+
 ### [New-CWMTicket](Docs/New-CWMTicket.md)
 This function will create a new service ticket
 
@@ -521,6 +527,9 @@ Removes a time sheet.
 ### [Set-CWMCompanyServiceTemplate](Docs/Set-CWMCompanyServiceTemplate.md)
 Replaces a company service template.
 
+### [Set-CWMServiceTemplateResource](Docs/Set-CWMServiceTemplateResource.md)
+Replaces a service template resource assignment.
+
 ### [Submit-CWMTimeSheet](Docs/Submit-CWMTimeSheet.md)
 This function will submit a time sheet for approval.
 
@@ -598,6 +607,9 @@ Updates a purchase order.
 
 ### [Update-CWMScheduleEntry](Docs/Update-CWMScheduleEntry.md)
 Will update a schedule entry.
+
+### [Update-CWMServiceTemplateResource](Docs/Update-CWMServiceTemplateResource.md)
+Applies patch operations to a service template resource assignment.
 
 ### [Update-CWMSSOConfiguration](Docs/Update-CWMSSOConfiguration.md)
 Updates a single sign-on configuration.
